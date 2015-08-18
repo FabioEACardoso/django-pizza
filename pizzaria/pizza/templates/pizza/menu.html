@@ -12,6 +12,8 @@
                 <div>{{ pizza.ingredients }}</div>
                 <hr>
             </li>
+        {% empty %}
+            <h2>nao tem pizza</h2>
         {% endfor %}
         </ul>
     </body>
