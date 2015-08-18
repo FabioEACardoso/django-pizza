@@ -5,7 +5,7 @@ sause = 'tomato'
 
 order_description = """
 The client asked for a pizza with less cheese.
-Istead of cheese he would like to have more ham. 
+Istead of cheese he would like to have more ham.
 """
 
 if sause.startswith('toma'):
@@ -15,5 +15,3 @@ else:
 
 if order_description:
     print(order_description)
-
-
